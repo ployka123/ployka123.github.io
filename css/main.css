@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  font-family: "Raleway";
+}
+
+body {
+  margin: 0;
+}
+
+.first-section {
+  min-height: 100vh;
+  width: 100%;
+  color: #fafafa;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.logo h1 {
+  font-weight: bolder;
+}
+
+.social-link {
+  display: inline;
+}
+
+h1 a,
+a h1 {
+  color: #fafafa;
+}
+
+h1 a:hover,
+a h1:hover {
+  color: #fafafa;
+  text-decoration: none;
+}
+
+h1 a:active,
+a h1:active {
+  color: #e8e8e8;
+}
+
+.main-text {
+  position: absolute;
+  top: 35%;
+}
+
+.main-text p {
+  text-indent: 1em;
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+
+.main-text h1 {
+  font-size: 3.5em;
+}
